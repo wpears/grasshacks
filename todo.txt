@@ -11,3 +11,8 @@ API gateway in node
     - would loose ability to transparently/immediately swap out microservices,
       unless providing a low-cache cdn option for the library
     - the clientside library could also work together with the gateway to maximum flexibility
+
+Server-side checks in node.
+  - Allows for code-sharing with the browser
+    - updates are done in a single place
+    - lower chance for subtle inconsistencies between browser/server
