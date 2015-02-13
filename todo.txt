@@ -1,0 +1,5 @@
+Drag and drag geocoding front-end
+  - Also allow individual queries via a search bar
+      - autocomplete
+
+Design front-end wrapper for geocoding API
