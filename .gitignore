@@ -4,3 +4,9 @@ node_modules/
 *.json
 *.gdb
 *.shp
+*.shx
+*.sbn
+*.sbx
+*.dbf
+*.prj
+*.xml
