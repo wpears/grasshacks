@@ -5,3 +5,15 @@ UI
 documentation
 APIs
 deployment
+
+load tiger lines
+
+cascading geocoder
+  - valid reasons to return multiple sources
+  - need to also say which is THE source of truth
+  - two endpoints? Headers? Querystring?
+
+Versioning on load.
+  - what happens if 100 first st changes x,y?
+  - job for dedupe.
+  - dedupe only collapses documents that are deepEqual
