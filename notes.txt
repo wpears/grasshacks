@@ -17,3 +17,5 @@ Versioning on load.
   - what happens if 100 first st changes x,y?
   - job for dedupe.
   - dedupe only collapses documents that are deepEqual
+
+Indexes as scoring
