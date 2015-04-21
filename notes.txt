@@ -17,5 +17,12 @@ Versioning on load.
   - what happens if 100 first st changes x,y?
   - job for dedupe.
   - dedupe only collapses documents that are deepEqual
+  - actually things won't version on load
+  - instead may build in data removal flag
+  - just drops index/type
 
+index/type scheme
+  - <level of data>/ <name of data>
+  - level of data will need to be specified
+    - state by default
 Indexes as scoring
