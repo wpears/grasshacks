@@ -22,3 +22,7 @@ if (props.geometry === null){
   }
 }
 
+
+!!
+If passing json to the loader (and no srs is specified) SKIP ogrChild and pass JSON directly to splitOGRJSON
+This MAY need a flag (--preformatted) to avoid weirdness (or a flag to force the opposite (--format))
